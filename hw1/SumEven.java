@@ -1,4 +1,3 @@
-// package hw1;
 
 public class SumEven {
     public static long sumEven(int n) {
@@ -7,5 +6,9 @@ public class SumEven {
             sum += i;
         }
         return sum;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(sumEven(0));
     }
 }
