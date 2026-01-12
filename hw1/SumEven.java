@@ -1,5 +1,6 @@
 
 public class SumEven {
+    // about nth times
     public static long sumEven(int n) {
         long sum = 0;
         for (int i = 0; i < 2 * n; i += 2) {
