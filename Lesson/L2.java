@@ -1,4 +1,3 @@
-import java.math.BigInteger;
 
 public class L2 {
     public static int maxFor(int[] numbers) {
