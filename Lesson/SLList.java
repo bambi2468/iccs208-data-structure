@@ -28,8 +28,6 @@ public class SLList {
 
     public void addFirst(int x) {
         sen.next = new IntNode(x, sen.next);
-        // first = newNode;
-        // first = new IntNode(x,first);
         actualSize++;
     }
 
