@@ -46,3 +46,8 @@ public class L5 {
         System.err.println(list.getLast());
     }
 }
+
+
+//1+3+5+...
+
+//
