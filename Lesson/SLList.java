@@ -158,4 +158,39 @@ public class SLList implements Iterable<Integer> {
         }
         return true;
     }
+
+    public double getAverage() {
+        double total = 0;
+        IntNode curr = sen.next;
+        while (curr != null) {
+            total += curr.head;
+            curr = curr.next;
+        }
+        return total / size();
+    }
+
+    public int find(int x) {
+        IntNode curr = sen.next;
+        int idx = 0;
+        while (curr != null) {
+            if (curr.head == x) {
+                return idx;
+            }
+            idx++;
+            curr = curr.next;
+        }
+        return -1;
+    }
+
+    public boolean contain(int x) {
+        IntNode curr = sen.next;
+        while (curr != null) {
+            if (curr.head == x) {
+                return true;
+            }
+            curr = curr.next;
+        }
+        return false;
+    }
+
 }

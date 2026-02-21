@@ -21,5 +21,10 @@ public class L4 {
         System.out.println(L.toString());
         L.insert(7, 2);
         System.out.println(L.toString());
+        System.out.println(L.getAverage());
+        System.out.println(L.find(7));
+        System.out.println(L.find(10));
+        System.out.println(L.contain(7));
+        System.out.println(L.contain(10));
     }
 }
