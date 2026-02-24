@@ -3,7 +3,8 @@
 
 # Log file
 *.log
-
+#Zone.identifier
+*Zone.Identifier
 # BlueJ files
 *.ctxt
 
